@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*
+{
+    font-family: 'Poppins';
+  scroll-behavior: smooth;
+}
+body
+{
+	padding: 0;
+	margin: 0;
+}
+.navbar
+{
+	background: #0984e3 !important;
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+	font-size: 22px;
+	margin-right: 20px;
+	line-height: 50px;
+}
+.scrollable-menu 
+{
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+.headnav
+{
+	background: #EEEEEE;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 50px;
+	transition: 1s;
+}
+.headnav a
+{
+	color: #000;
+}
+.headnav a:hover
+{
+	color: #0984e3;
+	border-bottom: 1px solid #0984e3;
+	font-weight: bold;
+}
+.marqline
+{
+	background: #FFEBEE;
+	color: #B71C1C;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 30px;
+}
+#ltjobs
+{
+	font-size: 16px;
+}
+#ltjobs .head h2
+{
+  color: #fff;
+  background: #0984e3;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 50px;
+}
+#ltjobs .jobs
+{
+	line-height: 20px;
+	text-align: center;
+}
+#ltjobs .jobs p
+{
+	font-size: 16px;
+	color: #0984e3;
+}
+#ltjobs .jobs .jb
+{
+	border-bottom: 1px solid #000;
+	margin-top: 20px;
+}
+#ltjobs .jb button
+{
+  width: 120px;
+  height: 40px;
+  background: #0984e3;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  letter-spacing: 2px;
+  font-size: 13px;
+  transition: 0.6s;
+  margin-left: 20px;
+}
+#ltjobs .jb button:hover
+{
+	color: #0984e3;
+	background: transparent;
+	border: 1px solid #0984e3;
+}
+#stwise .head h2
+{
+  color: #fff;
+  background: #0984e3;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 50px;
+}
+#otclass .othead h2
+{
+  color: #fff;
+  background: #0984e3;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 50px;
+}
+#ot
+{
+	position: relative;
+	width: 100%;
+	font-size: 14px;
+}
+#ot .ot-sub
+{
+	position: relative;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#ot .othead h2
+{
+	color: #fff;
+  background: #0984e3;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 50px;
+}
+#ot .extlink .extlinkhead p
+{
+	color: #fff;
+  background: #00b894;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 50px;
+}
+#ot .extlink .links ul
+{
+	list-style: none;
+}
+#ot .extlink .links li
+{
+	margin-bottom: 15px;
+}
+#ot .extlink .links a
+{
+	text-decoration: none;
+	font-weight: bold;
+}
+#ot .extlink .links a:hover
+{
+	color: #00b894;
+}
+#ot .extlink
+{
+	border-right: 2px solid #000;
+	padding-right: 3px;
+}
+#ot .table h4
+{
+	background: #00b894;
+	color: #fff;
+	border: 1px solid #000;
+	text-align: center;
+	line-height: 30px;
+	padding-top: 3px;
+}
+#ot .table .tab1,
+#ot .table .tab2,
+#ot .table .tab3
+{
+    margin-top: 5px;
+	border: 1px solid #000;
+}
+#ot .table .tab1 ul li,
+#ot .table .tab2 ul li,
+#ot .table .tab3 ul li
+{
+    list-style: none;
+    text-align: left;
+}
+#ot .table button,
+#ot .table-sub button
+{
+	width: 90px;
+	height: 30px;
+	font-weight: bold;
+	border: none;
+	border-radius: 15px;
+	color: #fff;
+	background: #D50000;
+	margin-top: 10px;
+
+}
+#ot .table button:hover,
+#ot .table-sub button:hover
+{
+	color: #D50000;
+	background: transparent;
+	border: 1px solid #D50000;
+}
+#ot .table-sub h4
+{
+	background: #00b894;
+	color: #fff;
+	border: 1px solid #000;
+	text-align: center;
+	line-height: 30px;
+	padding-top: 3px;
+}
+#ot .table-sub .tab1,
+#ot .table-sub .tab2,
+#ot .table-sub .tab3
+{
+    margin-top: 5px;
+	border: 1px solid #000;
+}
+#ot .table-sub .tab1 ul li,
+#ot .table-sub .tab2 ul li,
+#ot .table-sub .tab3 ul li
+{
+	list-style: none;
+}
+.footer-main-div
+{
+   width: 100%;
+   height: auto;
+   margin: auto;
+   background: #272727;
+   padding: 20px 0px;
+}
+.footer-social-icons
+{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.footer-social-icons ul
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-social-icons ul li
+{
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: #0984e3;
+}
+.footer-social-icons ul li a
+{
+	color: #272727;
+	font-size: 25px;
+}
+.footer-social-icons ul li a i
+{
+	line-height: 50px;
+}
+.footer-menu-one
+{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 30px;
+}
+.footer-menu-one ul
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-menu-one ul li
+{
+	display: inline-block;
+	margin: 0px 15px;
+}
+.footer-menu-one ul li a
+{
+	font-family: arial;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.footer-menu-one ul li a:hover
+{
+	color: #0984e3;
+}
+.footer-menu-two
+{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 15px;
+}
+.footer-menu-two ul
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-menu-two ul li
+{
+	display: inline-block;
+	margin: 0px 15px;
+}
+.footer-menu-two ul li a
+{
+	font-family: arial;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.footer-menu-two ul li a:hover
+{
+	color: #0984e3;
+}
+.footer-bottom
+{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #0984e3;
+    padding: 10px;
+}
+.footer-bottom p
+{
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
